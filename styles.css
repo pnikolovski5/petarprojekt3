@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: 'petarniko';
+    src: url('petarniko.ttf') format('truetype');
+}
+body {
+    font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+    margin: 0;
+    padding: 0;
+    background-image: url( "images/nazad.jpg");
+    background-size: cover;
+    color: #6A0606;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+	
+h1 {
+    font-family: 'petarniko', sans-serif; /* Apply the custom font to h1 */
+    color: #333;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #323;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+}
+
